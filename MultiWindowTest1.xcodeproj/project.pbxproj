@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4747A9861D7C19C30022EF66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9851D7C19C30022EF66 /* AppDelegate.m */; };
+		4747A9891D7C19C30022EF66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9881D7C19C30022EF66 /* main.m */; };
+		4747A98B1D7C19C30022EF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4747A98A1D7C19C30022EF66 /* Assets.xcassets */; };
+		4747A98E1D7C19C30022EF66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4747A98C1D7C19C30022EF66 /* MainMenu.xib */; };
+		4747A9991D7C19C30022EF66 /* MultiWindowTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9981D7C19C30022EF66 /* MultiWindowTest1Tests.m */; };
+		4747A9A41D7C19C30022EF66 /* MultiWindowTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9A31D7C19C30022EF66 /* MultiWindowTest1UITests.m */; };
+		4747A9B21D7C2EC30022EF66 /* SubWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4747A9B11D7C2EC30022EF66 /* SubWindow.xib */; };
+		4747A9B51D7C42900022EF66 /* SubWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9B41D7C42900022EF66 /* SubWindowController.m */; };
+		4747A9B81D7C56290022EF66 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9B71D7C56290022EF66 /* AppController.m */; };
+		4747A9F11D84010B0022EF66 /* SubWindowAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747A9F01D84010B0022EF66 /* SubWindowAppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4747A9951D7C19C30022EF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4747A9791D7C19C30022EF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4747A9801D7C19C30022EF66;
+			remoteInfo = MultiWindowTest1;
+		};
+		4747A9A01D7C19C30022EF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4747A9791D7C19C30022EF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4747A9801D7C19C30022EF66;
+			remoteInfo = MultiWindowTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4747A9811D7C19C30022EF66 /* MultiWindowTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiWindowTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4747A9841D7C19C30022EF66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4747A9851D7C19C30022EF66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4747A9881D7C19C30022EF66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4747A98A1D7C19C30022EF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4747A98D1D7C19C30022EF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4747A98F1D7C19C30022EF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4747A9941D7C19C30022EF66 /* MultiWindowTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiWindowTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4747A9981D7C19C30022EF66 /* MultiWindowTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWindowTest1Tests.m; sourceTree = "<group>"; };
+		4747A99A1D7C19C30022EF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4747A99F1D7C19C30022EF66 /* MultiWindowTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiWindowTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4747A9A31D7C19C30022EF66 /* MultiWindowTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWindowTest1UITests.m; sourceTree = "<group>"; };
+		4747A9A51D7C19C30022EF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4747A9B11D7C2EC30022EF66 /* SubWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubWindow.xib; sourceTree = "<group>"; };
+		4747A9B31D7C42900022EF66 /* SubWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubWindowController.h; sourceTree = "<group>"; };
+		4747A9B41D7C42900022EF66 /* SubWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubWindowController.m; sourceTree = "<group>"; };
+		4747A9B61D7C56290022EF66 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		4747A9B71D7C56290022EF66 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		4747A9EF1D84010B0022EF66 /* SubWindowAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubWindowAppController.h; sourceTree = "<group>"; };
+		4747A9F01D84010B0022EF66 /* SubWindowAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubWindowAppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4747A97E1D7C19C30022EF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A9911D7C19C30022EF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A99C1D7C19C30022EF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4747A9781D7C19C30022EF66 = {
+			isa = PBXGroup;
+			children = (
+				4747A9831D7C19C30022EF66 /* MultiWindowTest1 */,
+				4747A9971D7C19C30022EF66 /* MultiWindowTest1Tests */,
+				4747A9A21D7C19C30022EF66 /* MultiWindowTest1UITests */,
+				4747A9821D7C19C30022EF66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4747A9821D7C19C30022EF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4747A9811D7C19C30022EF66 /* MultiWindowTest1.app */,
+				4747A9941D7C19C30022EF66 /* MultiWindowTest1Tests.xctest */,
+				4747A99F1D7C19C30022EF66 /* MultiWindowTest1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4747A9831D7C19C30022EF66 /* MultiWindowTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				4747A9841D7C19C30022EF66 /* AppDelegate.h */,
+				4747A9851D7C19C30022EF66 /* AppDelegate.m */,
+				4747A9B31D7C42900022EF66 /* SubWindowController.h */,
+				4747A9B41D7C42900022EF66 /* SubWindowController.m */,
+				4747A9B61D7C56290022EF66 /* AppController.h */,
+				4747A9B71D7C56290022EF66 /* AppController.m */,
+				4747A9EF1D84010B0022EF66 /* SubWindowAppController.h */,
+				4747A9F01D84010B0022EF66 /* SubWindowAppController.m */,
+				4747A98A1D7C19C30022EF66 /* Assets.xcassets */,
+				4747A98C1D7C19C30022EF66 /* MainMenu.xib */,
+				4747A9B11D7C2EC30022EF66 /* SubWindow.xib */,
+				4747A98F1D7C19C30022EF66 /* Info.plist */,
+				4747A9871D7C19C30022EF66 /* Supporting Files */,
+			);
+			path = MultiWindowTest1;
+			sourceTree = "<group>";
+		};
+		4747A9871D7C19C30022EF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4747A9881D7C19C30022EF66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4747A9971D7C19C30022EF66 /* MultiWindowTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4747A9981D7C19C30022EF66 /* MultiWindowTest1Tests.m */,
+				4747A99A1D7C19C30022EF66 /* Info.plist */,
+			);
+			path = MultiWindowTest1Tests;
+			sourceTree = "<group>";
+		};
+		4747A9A21D7C19C30022EF66 /* MultiWindowTest1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4747A9A31D7C19C30022EF66 /* MultiWindowTest1UITests.m */,
+				4747A9A51D7C19C30022EF66 /* Info.plist */,
+			);
+			path = MultiWindowTest1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4747A9801D7C19C30022EF66 /* MultiWindowTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4747A9A81D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1" */;
+			buildPhases = (
+				4747A97D1D7C19C30022EF66 /* Sources */,
+				4747A97E1D7C19C30022EF66 /* Frameworks */,
+				4747A97F1D7C19C30022EF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiWindowTest1;
+			productName = MultiWindowTest1;
+			productReference = 4747A9811D7C19C30022EF66 /* MultiWindowTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4747A9931D7C19C30022EF66 /* MultiWindowTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4747A9AB1D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1Tests" */;
+			buildPhases = (
+				4747A9901D7C19C30022EF66 /* Sources */,
+				4747A9911D7C19C30022EF66 /* Frameworks */,
+				4747A9921D7C19C30022EF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4747A9961D7C19C30022EF66 /* PBXTargetDependency */,
+			);
+			name = MultiWindowTest1Tests;
+			productName = MultiWindowTest1Tests;
+			productReference = 4747A9941D7C19C30022EF66 /* MultiWindowTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4747A99E1D7C19C30022EF66 /* MultiWindowTest1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4747A9AE1D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1UITests" */;
+			buildPhases = (
+				4747A99B1D7C19C30022EF66 /* Sources */,
+				4747A99C1D7C19C30022EF66 /* Frameworks */,
+				4747A99D1D7C19C30022EF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4747A9A11D7C19C30022EF66 /* PBXTargetDependency */,
+			);
+			name = MultiWindowTest1UITests;
+			productName = MultiWindowTest1UITests;
+			productReference = 4747A99F1D7C19C30022EF66 /* MultiWindowTest1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4747A9791D7C19C30022EF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tanbo;
+				TargetAttributes = {
+					4747A9801D7C19C30022EF66 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4747A9931D7C19C30022EF66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4747A9801D7C19C30022EF66;
+					};
+					4747A99E1D7C19C30022EF66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4747A9801D7C19C30022EF66;
+					};
+				};
+			};
+			buildConfigurationList = 4747A97C1D7C19C30022EF66 /* Build configuration list for PBXProject "MultiWindowTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4747A9781D7C19C30022EF66;
+			productRefGroup = 4747A9821D7C19C30022EF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4747A9801D7C19C30022EF66 /* MultiWindowTest1 */,
+				4747A9931D7C19C30022EF66 /* MultiWindowTest1Tests */,
+				4747A99E1D7C19C30022EF66 /* MultiWindowTest1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4747A97F1D7C19C30022EF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4747A9B21D7C2EC30022EF66 /* SubWindow.xib in Resources */,
+				4747A98B1D7C19C30022EF66 /* Assets.xcassets in Resources */,
+				4747A98E1D7C19C30022EF66 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A9921D7C19C30022EF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A99D1D7C19C30022EF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4747A97D1D7C19C30022EF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4747A9891D7C19C30022EF66 /* main.m in Sources */,
+				4747A9861D7C19C30022EF66 /* AppDelegate.m in Sources */,
+				4747A9F11D84010B0022EF66 /* SubWindowAppController.m in Sources */,
+				4747A9B51D7C42900022EF66 /* SubWindowController.m in Sources */,
+				4747A9B81D7C56290022EF66 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A9901D7C19C30022EF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4747A9991D7C19C30022EF66 /* MultiWindowTest1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747A99B1D7C19C30022EF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4747A9A41D7C19C30022EF66 /* MultiWindowTest1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4747A9961D7C19C30022EF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4747A9801D7C19C30022EF66 /* MultiWindowTest1 */;
+			targetProxy = 4747A9951D7C19C30022EF66 /* PBXContainerItemProxy */;
+		};
+		4747A9A11D7C19C30022EF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4747A9801D7C19C30022EF66 /* MultiWindowTest1 */;
+			targetProxy = 4747A9A01D7C19C30022EF66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4747A98C1D7C19C30022EF66 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4747A98D1D7C19C30022EF66 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4747A9A61D7C19C30022EF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4747A9A71D7C19C30022EF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4747A9A91D7C19C30022EF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4747A9AA1D7C19C30022EF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4747A9AC1D7C19C30022EF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiWindowTest1.app/Contents/MacOS/MultiWindowTest1";
+			};
+			name = Debug;
+		};
+		4747A9AD1D7C19C30022EF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiWindowTest1.app/Contents/MacOS/MultiWindowTest1";
+			};
+			name = Release;
+		};
+		4747A9AF1D7C19C30022EF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiWindowTest1;
+			};
+			name = Debug;
+		};
+		4747A9B01D7C19C30022EF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiWindowTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanbo.MultiWindowTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiWindowTest1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4747A97C1D7C19C30022EF66 /* Build configuration list for PBXProject "MultiWindowTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4747A9A61D7C19C30022EF66 /* Debug */,
+				4747A9A71D7C19C30022EF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4747A9A81D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4747A9A91D7C19C30022EF66 /* Debug */,
+				4747A9AA1D7C19C30022EF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4747A9AB1D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4747A9AC1D7C19C30022EF66 /* Debug */,
+				4747A9AD1D7C19C30022EF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4747A9AE1D7C19C30022EF66 /* Build configuration list for PBXNativeTarget "MultiWindowTest1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4747A9AF1D7C19C30022EF66 /* Debug */,
+				4747A9B01D7C19C30022EF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4747A9791D7C19C30022EF66 /* Project object */;
+}
